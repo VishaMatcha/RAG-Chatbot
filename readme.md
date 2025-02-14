@@ -145,3 +145,32 @@ npm run build
 Push to GitHub and deploy on **Netlify** or **Vercel**.
 
 ---
+## **📈 Performance Optimization**
+- **Caching results** for repeated queries.
+- **Using BM25 & vector embeddings** for better search accuracy.
+- **Asynchronous processing** to improve FastAPI response times.
+
+---
+
+## **🤝 Contribution Guidelines**
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit changes & create a Pull Request.
+
+---
+
+## **🔗 Resources**
+- [FastAPI Docs](https://fastapi.tiangolo.com/)
+- [TensorFlow NLP Guide](https://www.tensorflow.org/tutorials/text/)
+- [Elasticsearch Docs](https://www.elastic.co/guide/en/elasticsearch/)
+
+---
+
+## **👨‍💻 Author**
+Developed by **Sai Vishal Matcha**  
+📧 Contact: `your-email@example.com`
+
+---
+
+## **📜 License**
+MIT License © 2025 RAG-Chatbot.  
