@@ -56,3 +56,37 @@ cd RAG-Chatbot
 ```
 
 ---
+### **3️⃣ Backend Setup (FastAPI + TensorFlow)**
+```sh
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+#### **Run the API Server**
+```sh
+uvicorn main:app --reload
+```
+API will be available at:  
+➡ **http://127.0.0.1:8000**
+
+---
+
+### **4️⃣ Start Elasticsearch**
+Run Elasticsearch in the background:
+```sh
+elasticsearch &
+```
+Verify it's running:
+```sh
+curl -X GET "http://localhost:9200"
+```
+Expected output:
+```json
+{
+  "name" : "your-mac",
+  "cluster_name" : "elasticsearch",
+  "version" : { "number" : "7.17.4", ... }
+}
+```
