@@ -8,8 +8,11 @@ app = FastAPI()
 # Initialize Elasticsearch
 es = Elasticsearch("http://localhost:9200")
 
-# Load TensorFlow model (Mock Example)
-model = tf.keras.models.load_model("nlp_model")
+try:
+    model = tf.keras.models.load_model("nlp_model")  # Check if it's in .keras or .h5
+except ValueError:
+    model = tf.keras.layers.TFSMLayer("nlp_model", call_endpoint="serving_default")
+
 
 @app.get("/")
 def home():
