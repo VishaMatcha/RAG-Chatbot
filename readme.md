@@ -168,9 +168,5 @@ Push to GitHub and deploy on **Netlify** or **Vercel**.
 
 ## **👨‍💻 Author**
 Developed by **Sai Vishal Matcha**  
-📧 Contact: `your-email@example.com`
-
 ---
 
-## **📜 License**
-MIT License © 2025 RAG-Chatbot.  
