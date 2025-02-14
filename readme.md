@@ -49,3 +49,10 @@ Ensure you have the following installed:
 - **Java 11 (for Elasticsearch)** → `brew install openjdk@11`
 
 ---
+### **2️⃣ Clone Repository & Setup Git**
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/RAG-Chatbot.git
+cd RAG-Chatbot
+```
+
+---
