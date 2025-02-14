@@ -116,3 +116,32 @@ Response:
 ```json
 {"message": "RAG Chatbot API is running"}
 ```
+### **2️⃣ Query Scientific Papers**
+```sh
+curl -X GET "http://127.0.0.1:8000/search?query=deep learning"
+```
+Response:
+```json
+{
+  "documents": ["Deep learning has revolutionized NLP..."],
+  "generated_response": "Deep learning is widely used for..."
+}
+```
+
+---
+
+## **🛠 Deployment**
+### **Deploy Backend (FastAPI)**
+**Using Heroku or AWS EC2**
+```sh
+pip install gunicorn
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
+```
+
+### **Deploy Frontend (Netlify/Vercel)**
+```sh
+npm run build
+```
+Push to GitHub and deploy on **Netlify** or **Vercel**.
+
+---
