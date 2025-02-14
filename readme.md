@@ -22,3 +22,19 @@
 
 ## **📂 Project Structure**
 
+```
+RAG-Chatbot/
+│── backend/                # FastAPI Server
+│   ├── main.py             # Main FastAPI app
+│   ├── index_data.py       # Script to index research papers
+│   ├── requirements.txt    # Backend dependencies
+│── frontend/               # React Chatbot UI
+│   ├── src/                # React source files
+│   ├── App.js              # Main React component
+│   ├── package.json        # Frontend dependencies
+│── README.md               # Project documentation
+│── .gitignore              # Ignored files for GitHub
+│── dataset/                # (Optional) Research Papers Dataset
+```
+
+---
