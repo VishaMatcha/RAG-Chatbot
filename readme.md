@@ -38,3 +38,14 @@ RAG-Chatbot/
 ```
 
 ---
+## **🚀 Installation Guide (macOS)**
+
+### **1️⃣ Prerequisites**
+Ensure you have the following installed:
+- **Python 3.9+** → `brew install python`
+- **Node.js (for frontend)** → `brew install node`
+- **Elasticsearch 7.17.4** → `brew install elastic/tap/elasticsearch-full`
+- **Git (for version control)** → `brew install git`
+- **Java 11 (for Elasticsearch)** → `brew install openjdk@11`
+
+---
