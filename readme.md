@@ -90,3 +90,29 @@ Expected output:
   "version" : { "number" : "7.17.4", ... }
 }
 ```
+#### **Index Scientific Papers**
+```sh
+python index_data.py
+```
+
+---
+
+### **5️⃣ Frontend Setup (React)**
+```sh
+cd ../frontend
+npm install
+npm start
+```
+➡ **Frontend will run on**: `http://localhost:3000`
+
+---
+
+## **⚡ API Endpoints**
+### **1️⃣ Test API**
+```sh
+curl -X GET "http://127.0.0.1:8000/"
+```
+Response:
+```json
+{"message": "RAG Chatbot API is running"}
+```
